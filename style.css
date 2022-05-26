@@ -1,0 +1,62 @@
+body{
+    background-color: coral;
+    color:aliceblue;
+}
+
+h1{
+    color:coral;
+    background-color: aliceblue;
+    width:30%;
+    border-radius: 10px;
+}
+
+canvas{
+    margin-top: 100px;
+    animation-name: borderchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: coral 1px solid;
+    border-radius: 20px;
+
+}
+
+.btn-lg{
+    border: 5px aliceblue solid;
+    border-radius: 15px;
+    background-color: lightsalmon;
+    color:aliceblue;
+}
+#show_sketch{
+    border: 5px;
+    border-radius: 15px;
+    background-color: lightsalmon;
+    color:aliceblue;
+}
+
+.btn-lg:hover{
+    color:lightsalmon;
+    background-color: aliceblue;
+    border:5px lightsalmon solid;
+}
+
+#show_sketch:hover{
+    color:lightsalmon;
+    background-color: aliceblue;
+}
+
+p{
+    color:antiquewhite;
+    font-size: 18px;
+}
+
+@keyframes borderchange{
+    from{box-shadow: 1px 1px 38px aliceblue;}
+    to{box-shadow: 1px 1px 38px lightpink;}
+}
+
+
+
+
+
+
+
